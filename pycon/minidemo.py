@@ -234,7 +234,7 @@ def r():
     shell.magic("%rep")
 
 
-for k in pystemd.systemd1.unit.KNOWN_UNIT_SIGNATURES:
+for k in pystemd.systemd1.unit_signatures.KNOWN_UNIT_SIGNATURES:
     k = k.decode()
     exec(f'{k}="{k}"')
 

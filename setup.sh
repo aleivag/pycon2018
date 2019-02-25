@@ -5,7 +5,7 @@
 rm -rf /home/terry/
 
 pacman -Syy
-pacman -Su --noconfirm
+# pacman -Su --noconfirm
 pacman  --noconfirm -S cython ipython python-pip python-wheel vim git debootstrap pandoc
 
 pip install pypandoc Pygments
